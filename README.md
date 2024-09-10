@@ -6,7 +6,14 @@
 ```
 2. STAŁE
 ```js
-    const b = 3;
+   const b = 3;
+   const c = 2;
+```
+3. FUNKCJE
+```js
+   function oblicz(){
+      let wynik = b + c;
+   }
 ```
 
 ZADANIE 30201
