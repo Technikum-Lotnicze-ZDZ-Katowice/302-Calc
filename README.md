@@ -1,5 +1,18 @@
 # 302-Calc
 
+1. ZMIENNE
+```js
+   let a = "Ala";
+```
+2. STAŁE
+```js
+    const b = 3;
+```
+
+ZADANIE 30201
+
+Przygotuj kalkulator
+
 ```html
     <style>
         #rowne{width:80px}
