@@ -13,9 +13,27 @@
 ```js
    function oblicz(){
       let wynik = b + c;
+      console.log(wynik)
    }
 ```
+4. SCRIPT
+   ```html
+   ...
+   
+      <body>
+         <input id="wejscie">
+         <button onClick="wypisz()">Wyświetl</button>
+         ...
+         <script>
+            ...
+            cosnt wejscie = document.querySelector('#wejscie');
 
+         function wypisz(){
+            console.log(wejscie.value)
+         }
+         <script>
+      </body>
+   ```
 ZADANIE 30201
 
 Przygotuj kalkulator
