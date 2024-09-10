@@ -26,14 +26,18 @@
          ...
          <script>
             ...
-            cosnt wejscie = document.querySelector('#wejscie');
+            const wejscie = document.querySelector('#wejscie');
 
-         function wypisz(){
-            console.log(wejscie.value)
-         }
+            ...
+   
+            function wypisz(){
+               console.log(wejscie.value)
+            }
          <script>
       </body>
    ```
+
+   
 ZADANIE 30201
 
 Przygotuj kalkulator
