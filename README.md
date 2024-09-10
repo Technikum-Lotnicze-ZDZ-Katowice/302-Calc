@@ -4,10 +4,12 @@
     <style>
         #rowne{width:80px}
         button{margin:2px;}
+        input{width:80px}
     </style>
 
 .....
 
+    <input><br>
     <button>1</button>
     <button>2</button>
     <button>3</button><br>
