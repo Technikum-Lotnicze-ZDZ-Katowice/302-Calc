@@ -40,7 +40,9 @@
    
 ZADANIE 30201
 
-Przygotuj kalkulator
+Przygotuj kalkulator.
+
+- pierwszy etap - wybierz liczbę a po kliknięciu "=" wyświetl podwojoną wartość
 
 ```html
     <style>
