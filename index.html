@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #rowne{width:80px}
+        button{margin:2px;}
+        input{width:80px}
+    </style>
+</head>
+<body>
+    <input id="output"><br>
+    <button onClick="wprowadz1(1)">1</button>
+    <button onClick="wprowadz1(2)">2</button>
+    <button onClick="wprowadz1(3)">3</button><br>
+    <button onClick="wprowadz1(4)">4</button>
+    <button onClick="wprowadz1(5)">5</button>
+    <button onClick="wprowadz1(6)">6</button><br>
+    <button onClick="wprowadz1(7)">7</button>
+    <button onClick="wprowadz1(8)">8</button>
+    <button onClick="wprowadz1(9)">9</button><br>
+    <button onClick="wprowadz1(0)">0</button>
+    <button>+</button>
+    <button>-</button><br>
+    <button id="rowne">=</button>
+
+    <script>
+        const output = document.getElementById('output')
+        let z=liczba1 = 0;
+        function wprowadz1(wartosc){
+            liczba1 = wartosc;
+
+            output.value=liczba1 * 2;
+        }
+    </script>
+</body>
+</html>
