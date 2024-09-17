@@ -72,12 +72,16 @@
 
 ```js
          const tablica = [];
-         const tablica = ['pierwszy','drugi',3,4,['a','b','c']]
 
-        console.log(tablica[2]) // od 0
-        console.log('ile elementów',tablica.length)
-        tablica.push('dodany');
-        console.log(tablica.length)
+         const tablica2 = ['pierwszy','drugi',3,4,['a','b','c']]
+
+        console.log(tablica2[2]) // odwołanie do 2 elementu (liczone od 0)
+
+        console.log('ile elementów',tablica2.length)
+
+        tablica.push('dodany'); // dodawanie elementów
+
+        console.log(tablica2.length)
 ```
 
 ZADANIE 30201
