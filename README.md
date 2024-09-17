@@ -53,6 +53,8 @@
 
 6. Instrukcja switch
 ```js
+      let wiek = 25;
+
         switch(wiek){
             case 18:
                 console.log('nie możesz głosować');
@@ -64,7 +66,7 @@
                 console.log('możesz głosować');
             break;
             default:
-                console.log('pozostałe');
+                console.log('inny wiek niż wymienione');
         }
 ```
 
