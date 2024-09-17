@@ -50,6 +50,23 @@
 
         c == 30 ? console.log('rowne w ternary') : console.log('nie jest rowne 30')
 ```
+
+6. Instrukcja switch
+```js
+        switch(wiek){
+            case 18:
+                console.log('nie możesz głosować');
+            break;
+            case 19:
+            case 20:
+            case 21:
+            case 22:
+                console.log('możesz głosować');
+            break;
+            default:
+                console.log('pozostałe');
+        }
+```
    
 ZADANIE 30201
 
