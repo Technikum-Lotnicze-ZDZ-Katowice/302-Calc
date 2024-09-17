@@ -71,7 +71,8 @@
 7.Tablice
 
 ```js
-        const tablica = ['pierwszy','drugi',3,4,['a','b','c']]
+         const tablica = [];
+         const tablica = ['pierwszy','drugi',3,4,['a','b','c']]
 
         console.log(tablica[2]) // od 0
         console.log('ile elementów',tablica.length)
