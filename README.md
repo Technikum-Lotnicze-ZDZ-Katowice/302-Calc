@@ -77,7 +77,7 @@
 
          const tablica2 = ['pierwszy','drugi',3,4,['a','b','c']]
 
-        console.log(tablica2[2]) // odwołanie do 2 elementu (liczone od 0)
+        console.log(tablica2[2]) // odwołanie do 2-go elementu tabicy (liczone od 0)
 
         console.log('ile elementów',tablica2.length)
 
