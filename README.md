@@ -67,7 +67,18 @@
                 console.log('pozostałe');
         }
 ```
-   
+
+7.Tablice
+
+```js
+        const tablica = ['pierwszy','drugi',3,4,['a','b','c']]
+
+        console.log(tablica[2]) // od 0
+        console.log('ile elementów',tablica.length)
+        tablica.push('dodany');
+        console.log(tablica.length)
+```
+
 ZADANIE 30201
 
 Przygotuj kalkulator.
