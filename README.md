@@ -36,7 +36,20 @@
          <script>
       </body>
    ```
+5. Instrukcje warunikowe
 
+```js
+
+        if(c == 30) {
+            console.log('jest równe 30')
+        } else {
+            console.log('nie jest równe 30')
+        }
+
+// ternary operator
+
+        c == 30 ? console.log('rowne w ternary') : console.log('nie jest rowne 30')
+```
    
 ZADANIE 30201
 
