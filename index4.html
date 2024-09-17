@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #rowne{width:80px}
+        button{margin:2px;}
+        input{width:80px}
+    </style>
+</head>
+<body>
+    <input id="output"><br>
+    <button onClick="wprowadz1(1)">1</button>
+    <button onClick="wprowadz1(2)">2</button>
+    <button onClick="wprowadz1(3)">3</button><br>
+    <button onClick="wprowadz1(4)">4</button>
+    <button onClick="wprowadz1(5)">5</button>
+    <button onClick="wprowadz1(6)">6</button><br>
+    <button onClick="wprowadz1(7)">7</button>
+    <button onClick="wprowadz1(8)">8</button>
+    <button onClick="wprowadz1(9)">9</button><br>
+    <button onClick="wprowadz1(0)">0</button>
+    <button onClick="ustawDzialanie('+')">+</button>
+    <button onClick="ustawDzialanie('-')">-</button><br>
+    <button id="rowne" onClick="oblicz()">=</button>
+
+    <script>
+        const output = document.getElementById('output')
+        let liczba1 = null;
+        let liczba2 = null;
+        let dzialanie = null;
+        function wprowadz1(wartosc){
+            if(dzialanie != null){
+                console.log("Wprowadzam 2 liczbe",wartosc)
+                if(liczba2 == null){
+                    liczba2 = "";
+                }
+                liczba2 = String(liczba2) + String(wartosc);
+                output.value=liczba2;
+            }
+            if(liczba2 == null && dzialanie == null){
+                if(liczba1 == null){
+                    liczba1 = "";
+                }
+                liczba1 = String(liczba1) + String(wartosc);
+                output.value=liczba1;
+            }
+            console.log(liczba1, liczba2)
+        }
+        function ustawDzialanie(jakieDzialanie){
+            dzialanie = jakieDzialanie;
+        }
+        function oblicz(){
+            if(dzialanie == '+'){
+                output.value=liczba1 + liczba2;
+            }
+            if(dzialanie == '-'){
+                output.value=liczba1 - liczba2;
+            }
+        }
+    </script>
+</body>
+</html>
